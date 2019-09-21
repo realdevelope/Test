@@ -1,0 +1,23 @@
+1. git init  --------> 로컬 레포지토리 만들때
+
+2.git remote add origin (url주소) --------> 원격 레포지토리랑 로컬 레포지토리랑 연결
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+
+1.git status ----> commit 하기전 파일이 추가됬는지 확인
+
+2.git add . -----> 모든 파일을 추가
+
+3.git status 
+
+4.git commit -m "메세지" ------> push 하기전
+
+5.git push origin master -------> commmit 된 파일을 원격된 레포지토리로 push
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+1.git pull origin master -------->원격 레포지토리에서 바뀐사항이 있으면
+				  자신의 로컬 레포지토리로 가져온다.
+				  (단 바뀐게 없으면, already to up to date가 뜬다)
+
+
+
